@@ -1,6 +1,5 @@
 name: sudhakaropsmx/mysuperduperplugin
 description: My super plugin allows you to do stuff
-manifestVersion: plugins/v1
 version: 1.2.3
 options:
   superserver:
