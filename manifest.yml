@@ -3,9 +3,16 @@ description: My super plugin allows you to do stuff
 manifestVersion: plugins/v1
 version: 1.2.3
 options:
-  superserver:
+  example:
     url: string
     port: integer
+    nested:
+      foo: bar
+    list:
+      - first
+      - second
 resources:
   orca:
-  - https://raw.githubusercontent.com/sudhakaropsmx/stage-plugin/master/stage-plugin-0.0.1-SNAPSHOT.jar
+  - https://stage-plugin-test.s3-us-west-2.amazonaws.com/stage-plugin-0.0.1-SNAPSHOT.jar
+  deck:
+  - https://stage-plugin-test.s3-us-west-2.amazonaws.com/stage-plugin-ui-0.0.1-SNAPSHOT.js
